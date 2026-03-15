@@ -1,0 +1,7 @@
+Zadatak 4
+
+mkdir vjezba4 && mkdir vjezba4/subfolder
+touch vjezba4/$HOSTNAME
+mv vjezba4/$HOSTNAME vjezba4/$USER
+mv vjezba4/$USER vjezba4/subfolder
+rm /mnt/c/Users/Racba/Documents/GitHub/OS-vjezbe/OS1_zadaca/vjezba4/subfolder/$USER

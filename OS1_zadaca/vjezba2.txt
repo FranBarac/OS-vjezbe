@@ -1,0 +1,7 @@
+Zadatak 2 
+
+mkdir vjezba2 && touch vjezba2/file.txt
+cp vjezba2/file.txt vjezba2/file_copy.txt
+ls vjezba2
+rm vjezba2/file.txt && cd ..
+rmdir OS1_zadaca/vjezba2 - direktorij nije prazan i zato se nece izbrisati
