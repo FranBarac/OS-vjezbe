@@ -1,0 +1,7 @@
+Zadatak 5
+
+mkdir vjezba5 && touch vjezba5/$RANDOM.num
+rmdir vjezba5
+cp vjezba5/11881.num vjezba5/backup.num
+mkdir vjezba5/backup
+mv vjezba5/backup.num vjezba5/backup

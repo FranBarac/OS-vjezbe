@@ -1,0 +1,8 @@
+Zadatak 6
+
+mkdir /mnt/c/Users/Racba/Documents/vjezba6
+cd /mnt/c/Users/Racba/Documents/vjezba6 && touch OS_script.md notes.txt && mkdir scripts
+mv OS_script.md scripts
+mv notes.txt todo.txt
+cd scripts && rm ../todo.txt
+
