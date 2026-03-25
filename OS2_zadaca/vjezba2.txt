@@ -3,3 +3,9 @@
 Zadatak 1
 Direktno na GitHubu sam kreirao "OS2_zadaca", a pošto lokalno vec imam repozitorij OS-vjezbe, iskoristio sam "git pull" da mi se doda "OS2_zadaca" lokalno
 touch OS2_zadaca/vjezba2.txt
+
+Zadatak 2
+mkdir OS2_zadaca/data && mkdir OS2_zadaca/backup
+touch OS2_zadaca/data/script.js && touch OS2_zadaca/data/style.css && touch OS2_zadaca/data/.env
+echo 'console.log("Hello, World!")' > OS2_zadaca/data/script.js && echo "body { background-color: #f0f0f0; }" > OS2_zadaca/data/style.css && echo "VJEZBE=OS" > OS2_zadaca/data/.env
+cat OS2_zadaca/data/script.js && cat OS2_zadaca/data/style.css && cat OS2_zadaca/data/.env
