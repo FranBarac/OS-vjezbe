@@ -23,5 +23,11 @@ rm -ri data - rekurzivno, interaktivno
     rm: remove regular file 'data/style.css'? y
     rm: remove directory 'data'? n
 cp -rn backup/. data/ - rekurzivno, no overwrite
+ls -1 -lA -t data - jedan redak, detaljno i bez . .., sortira datoteke od najnovije 
+tree -a data - alternativa
+    data
+    ├── .env
+    ├── script.js
+    └── style.css
 
 
