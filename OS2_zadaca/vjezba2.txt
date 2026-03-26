@@ -30,4 +30,10 @@ tree -a data - alternativa
     ├── script.js
     └── style.css
 
+Zadatak 5
+
+tu se nalazim /mnt/c/Users/Racba/Documents$, dosao do njega koristeci "cd .." tri puta
+ls -la -S
+ls -lSh
+tree -a
 
