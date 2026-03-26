@@ -9,3 +9,8 @@ mkdir OS2_zadaca/data && mkdir OS2_zadaca/backup
 touch OS2_zadaca/data/script.js && touch OS2_zadaca/data/style.css && touch OS2_zadaca/data/.env
 echo 'console.log("Hello, World!")' > OS2_zadaca/data/script.js && echo "body { background-color: #f0f0f0; }" > OS2_zadaca/data/style.css && echo "VJEZBE=OS" > OS2_zadaca/data/.env
 cat OS2_zadaca/data/script.js && cat OS2_zadaca/data/style.css && cat OS2_zadaca/data/.env
+
+Zadatak 3
+cd OS2_zadaca
+cp -r data/. backup/ - kopira vidljive i skrivene datoteke 
+cd data && ls -la -S  ../backup
