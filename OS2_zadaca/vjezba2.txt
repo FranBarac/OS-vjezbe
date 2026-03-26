@@ -12,5 +12,16 @@ cat OS2_zadaca/data/script.js && cat OS2_zadaca/data/style.css && cat OS2_zadaca
 
 Zadatak 3
 cd OS2_zadaca
-cp -r data/. backup/ - kopira vidljive i skrivene datoteke 
+cp -r data/. backup/ - rekurzivno kopira vidljive i skrivene datoteke 
 cd data && ls -la -S  ../backup
+
+Zadatak 4
+rm -ri data - rekurzivno, interaktivno
+    rm: descend into directory 'data'? y
+    rm: remove regular file 'data/.env'? n
+    rm: remove regular file 'data/script.js'? y
+    rm: remove regular file 'data/style.css'? y
+    rm: remove directory 'data'? n
+cp -rn backup/. data/ - rekurzivno, no overwrite
+
+
