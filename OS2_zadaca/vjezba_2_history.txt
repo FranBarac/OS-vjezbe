@@ -1,0 +1,138 @@
+  151  git pull
+  152  touch OS2_zadaca/vjezba2.txt
+  153  git add .
+  154  git status
+  155  git commit -m "Dodavanje 1. zadatka"
+  156  git push 
+  157  git remote set-url origin git@github.com:FranBarac/OS-vjezbe.git
+  158  ssh -T git@github.com
+  159  git status
+  160  ssh -T git@github.com
+  161  git push
+  162  mkdir OS2_zadaca/data && mkdir OS2_zadaca/backup
+  163  touch OS2_zadaca/data script.js style.css .env
+  164  rm script.js
+  165  rm style.css
+  166  rm OS2_zadaca/.env
+  167  rm .env
+  168  touch OS2_zadaca/data/script.js && touch OS2_zadaca/data/style.css && touch OS2_zadaca/data/.env
+  169  cd OS2_zadaca/data
+  170  echo "console.log('Hello, World') > script.js
+
+clear
+stop
+  171  cd ..
+  172  S" > OS2_zadaca/data/.env
+  173  echo 'console.log("Hello, World!")' > OS2_zadaca/data/script.js && echo "body { background-color: #f0f0f0; }" > OS2_zadaca/data/style.css && echo "VJEZBE S" > OS2_zadaca/data/.env
+  174  echo "VJEZBE=OS" > OS2_zadaca/data/.env
+  175  tree
+  176  sudo apt install tree
+  177  tree
+  178  man
+  179  man car
+  180  man cat
+  181  cat OS2_zadaca/data/script.js
+  182  cat OS2_zadaca/data/script.js && cat OS2_zadaca/data/style.css
+  183  cat OS2_zadaca/data/script.js && cat OS2_zadaca/data/style.css && OS2_zadaca/data/.env
+  184  cat OS2_zadaca/data/script.js && cat OS2_zadaca/data/style.css && cat  OS2_zadaca/data/.env
+  185  git add .
+  186  git status
+  187  git commit -m "Dodavanje 2. zadatka"
+  188  git push
+  189  man ls
+  190  ls -a OS2_zadaca/data
+  191  man cp
+  192  cd OS2_zadaca
+  193  cd data
+  194  ls -a
+  195  cd ..
+  196  cd data
+  197  cd ..
+  198  cp -r data/* backup 
+  199  ls -a backup
+  200  rm backup/script.js
+  201  cd backup
+  202  ls -a
+  203  rm style.css
+  204  cd ..
+  205  cp -r -a  data/* backup
+  206  cd data
+  207  ls
+  208  ls -a
+  209  man cp
+  210  cd ..
+  211  rm backup/script.js
+  212  rm backup/style.css
+  213  cp -r . data/* backup
+  214  cd backup
+  215  rm vjezba2.txt
+  216  cd ..
+  217  rm README.MD
+  218  rmdir backup
+  219  rm vjezba2.txt
+  220  rm style.css
+  221  rm script.js
+  222  cd ..
+  223  cp -r . OS2_zadaca/data/* OS2_zadaca/backup
+  224  cd data
+  225  cp -r . data/* OS2_zadaca/backup
+  226  cp -r . data/* backup
+  227  cd ..
+  228  cp -r . OS2_zadaca/data/* backup
+  229  cd backup
+  230  cd backup 
+  231  cd ..
+  232  rmdir backup
+  233  rm README.md
+  234  rm vjezba2.txt
+  235  cd ..
+  236  cp -r data/. backup/
+  237  cd data && ls -la  ~/backup 
+  238  cd data && ls -la  ../backup 
+  239  cd ..
+  240  cd data && ls -la  ../backup 
+  241  man ls
+  242  cd ..
+  243  cd data && ls -las  ../backup 
+  244  cd ..
+  245  cd data && ls -la -s  ../backup 
+  246  cd ..
+  247  cd data && ls -la -S  ../backup 
+  248  cd ..
+  249  git add .
+  250  git commit -m "Dodavanje 3. zadatka"
+  251  git push
+  252  rm -ri data
+  253  cp -rn backup/. data/
+  254  ls -lA -t data
+  255  ls -1 -lA -t data
+  256  ls -lA -1 -t data
+  257  tree data
+  258  tree -A data
+  259  man tree
+  260  tree -a data
+  261  man tree
+  262  tree -a data
+  263  git add .
+  264  git commit -m "Dodavanje 4. zadatka"
+  265  git push
+  266  git add .
+  267  git commit -m "Dodavanje 4. zadatka"
+  268  git push
+  269  cd..
+  270  cd ..
+  271  ls
+  272  ls -la -S
+  273  ls -lSh
+  274  tree -a
+  275  ls
+  276  git GitHub
+  277  cd GitHub
+  278  ls
+  279  cd OS-vjezbe
+  280  cd OS2_zadaca
+  281  git add .
+  282  git commit -m "Dodavanje 5. zadatka"
+  283  git push
+  284  history
+  285  history > vjezba_2_history.txt
