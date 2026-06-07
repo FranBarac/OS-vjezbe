@@ -1,0 +1,15 @@
+Proces ima PID 2164. 
+Memorija:
+	- Virtualan: ~18 MiB
+	- Fizicka: ~9 MiB
+	- Djeljena: ~6 MiB
+Nice value 0, sto znaci da ima prioritet 20 - normalan proces
+Status je S - sleeping 
+Postotak koristenja procesora je 0.0%
+MEM% - 0.6% fizicke memorije koju proces koristi
+TIME+ 0:00:01- ukupno procesorsko vrijeme koje je proces potrosio od pokretanaj
+
+
+kill 2164 - salje SITGTERM (15) signal. Salje se zahtjev za prekidom, process moze obraditi signal i zavrsiti na "ljubazan" nacin
+kill -15 2164 - Isto kao i predhodna naredba, samo smo eksplicitno naveli -15 zastavicu
+kill -9 2164 - prisilno prekida process, ne moze se obraditi

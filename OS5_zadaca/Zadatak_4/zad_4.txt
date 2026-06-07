@@ -1,0 +1,7 @@
+rwxr-xr-x = 755, Vlasnik moze citati, pisati i izvrsavati, grupa moze citati i izvrsavati, ostali korisnici mogu citati i izvrsavati
+rw-r--r-- = 644, Vlasnik moze citati i pisati, grupa citati, ostali korisnici citati
+rwx------ = 700, Vlasnik moze citati, pisati i izvrstavati, grupa i ostali korisnici nemaju ni jednu dozvolu
+rw-rw-r-- = 664, Vlasnik i grupa mogu citati i pisati, ostali korisnici citati
+rwxrwxrwx = 777, Svi mogu sve
+r--r--r-- = 444, Svi mogu samo citati
+rw------- = 600, Vlasnik moze citati i pisati, grupa i ostali korisnici ne mogu nista
